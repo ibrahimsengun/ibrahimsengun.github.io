@@ -1,0 +1,35 @@
+#myCarousel .list-inline {
+  white-space:nowrap;
+  overflow-x:auto;
+}
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+  opacity: 0.7;
+}
+
+.black-divider{
+  border-top: solid 1px black;
+}
+
+.ads{
+  background-color: yellow;
+  text-align: center;
+  padding: 3rem;
+}
+
+.breaking-news {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
