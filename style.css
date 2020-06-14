@@ -1,7 +1,14 @@
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1260px;
+  }
+}
+
 #myCarousel .list-inline {
   white-space:nowrap;
   overflow-x:auto;
 }
+
 #myCarousel .carousel-indicators {
   position: static;
   left: initial;
@@ -23,13 +30,74 @@
   border-top: solid 1px black;
 }
 
+.container{
+  padding-left: 0; padding-right: 0;
+}
+
 .ads{
   background-color: yellow;
   text-align: center;
-  padding: 3rem;
+  padding: 2rem 6rem;
 }
 
 .breaking-news {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.list-category{
+  align-items: flex-end;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.list-category > .list-group-item {
+  font-size: 10pt;
+  text-align: center;
+  border-color: white;
+  background-color: #cacaca;
+  clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0% 100%, 0 50%, 0% 0%);
+  width: 6.5rem;
+  padding: 0.1rem;
+  margin: 0;
+}
+
+.list-category > .list-group-item:hover {
+  background-color: rgb(223, 81, 81);
+}
+
+
+.list-category > .list-group-item > a{
+  color: black;
+  display: inline-block
+}
+
+.list-group > a > div > div > img{
+  width: 120%;
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+.list-group-item {
+  padding: 0.5rem;
+}
+
+#advert.list-group-item{
+  padding-right: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+
+.font-size-10{
+  font-size: 10pt;
+}
+.font-size-12{
+  font-size: 12pt;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-collapse .collapse{
+      display:block;
+    }  
+  }
